@@ -1,0 +1,27 @@
+#preview pre {
+  background: #eee;
+}
+
+#editor {
+  resize: none;
+}
+
+#editor:focus {
+  outline: 0;
+}
+
+#preview, #editor {
+  width: 40%;
+  margin: 30px;
+  height: 500px;
+  overflow: scroll;
+  background: #ccc;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  height: 100vh;
+}
